@@ -1,0 +1,83 @@
+/* Apply a background gradient */
+body {
+    font-family: 'PT Serif', serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background: white;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Fine amount styling */
+.fine-amount {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#fine-amount {
+    font-weight: bold;
+    color: #6048af;
+}
+
+/* Button container styling */
+.btn-container, .home-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Button styling */
+.btn, .home-btn {
+    padding: 12px 25px;
+    background-color: #6dabd4;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+/* Hover effect for buttons */
+.btn:hover, .home-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+/* Animation for container */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

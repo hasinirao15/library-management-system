@@ -1,0 +1,332 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000; 
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0; 
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+/*-------------------------------Main code   INDEX ---------------------------------------------------------*/
+
+.wrapper
+{
+	height: 660px;
+	width: 1350px;
+	/*background-color: red;*/
+}
+header
+{
+	height: 130px;
+	width: 1470px;
+	background-color: black;
+	padding: 10px;
+}
+section
+{
+	height: 550px;
+
+	width: 1500px;
+	background-color: grey;
+}
+footer
+{
+	height: 82px;
+	width: 1500px;
+	background-color: black;
+}
+.logo
+{
+	float :left;
+	
+
+}
+.logo img 
+{
+	width:180px;
+	height:140px;
+	
+}
+.logo h1
+{
+	padding-top:60px;
+	
+	float:right;
+	
+}
+li a
+{
+	color: white;
+	text-decoration: none;
+}
+nav
+{
+	float: right;
+	word-spacing: 30px;
+	padding: 20px;
+}
+nav li 
+{
+	display: inline-block;
+	line-height: 80px;
+}
+
+section .sec_img
+{
+	height: 550px;
+	margin-top: 0px;
+	background-image: url("img2.jpg");
+}
+.box
+{
+	height: 300px;
+	width: 450px;
+	background-color: #030002;
+	margin: 70px auto;
+	opacity: .6;
+	color: white;
+}
+
+/*--------------------------------st_login-----------------------------*/
+
+.log_img
+{
+	height: 550px;
+	margin-top: 0px;
+	background-image: url("img33.jpg");
+}
+
+
+.tab-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .tab {
+            cursor: pointer;
+            padding: 20px;
+            margin: 0 10px;
+            background-color: grey;
+            color: #fff;
+            border-radius: 4px 4px 0 0;
+            transition: background-color 0.3s ease;
+        }
+
+        .tab.active {
+            background-color: black;
+        }
+    .login-forms {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .login-form {
+            display: none;
+            height: 300px;
+	width: 400px;
+            background-color: black;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	opacity: .7;
+	color: white;
+	
+
+
+
+        }
+
+        .login-form.active {
+            display: block;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top:10px;
+            margin-bottom:16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #0056b3;
+            color: #fff;
+		width: 100px;
+		height:40px;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #007BFF;
+        }
+
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+/*------------------------------signup--------------------*/
+.reg_img
+{
+	height: 630px;
+	margin-top: 0px;
+	background-image: url("cvrlib.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.box2
+{
+	height: 560px;
+	width: 400px;
+	background-color: black;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding: 50px;
+}
+
+.login select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login input[type=text], .login input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login button {
+  width: 100%;
+  background-color: #000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #45a049;
+}
+
+.box2 {
+  background-color: #f2f2f2;
+  padding: 24px;
+  width: 40%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.reg_img {
+  padding-top: 20px;
+}

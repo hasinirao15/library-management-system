@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration</title>
+  <link rel="stylesheet" type="text/css" href="style_home.css?v=1.1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+</head>
+<body>
+<header style="height: 130px;">
+  <div class="logo">
+    <img src="bimg111.jpg">
+    <h1 style="color: white;font-size: 30px;">STUD</h1>
+  </div>
+  <nav>
+     <ul>
+         <li><a href="home.html">HOME</a></li>
+         <li><a href="books?action=total">BOOKS</a></li>
+         <li><a href="Login.jsp">LOGIN</a></li>
+         <li><a href="signup.html">SIGNUP</a></li>
+       </ul>
+  </nav>
+</header>
+<section>
+  <div class="reg_img" >
+    <div class="box2">
+        <h1 style="text-align: center; color: black; font-size: 35px;font-family: Lucida Console;">SIGNUP</h1><br>
+          <form action="Registration" method="post">
+       <br>
+       <div class="login">
+         <input type="text" name="firstname" placeholder="First Name" required=""> <br><br>
+         <input type="text" name="lastname" placeholder="Last Name" required=""> <br><br>
+         <input type="text" name="username" placeholder="Username" required=""> <br><br>
+         <input type="password" name="password" placeholder="Password" required=""> <br><br>
+         <input type="text" name="rollno" placeholder="Roll No" required=""><br><br>
+         <input type="text" name="email" placeholder="Email" required=""><br><br>
+<select name="userType">
+<option value="admin">Admin</option>
+<option value="student">Student</option>
+</select>
+
+         </div>
+         <input type="submit" value="Submit" />
+         </div>
+     </form>
+          </div>
+        </form>
+    </div>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  background-image: url('try.jpg');
+  background-size: cover; /* Ensure the background image covers the entire body */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  overflow-y: auto; /* Add scrollbar for vertical overflow */
+}
+
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-family: "Courier New", monospace;
+}
+
+h1 {
+  margin: 0;
+}
+
+.menu {
+  background-color: #f0f0f0;
+  padding: 30px;
+  position: absolute;
+  left: 20px;
+  top: 50%; /* Centering vertically */
+  transform: translateY(-50%);
+}
+
+.menu a {
+  display: block;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: #333;
+}
+
+.account-dropdown {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.account-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.account-options {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.account-options a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.account-options a:hover {
+  background-color: #f0f0f0;
+}
+
+.account-dropdown:hover .account-options {
+  display: block;
+}
+
+.content {
+  padding: 160px;
+max-width: 800px; /* Set maximum width for the content */
+  margin-left: 180px; /* Adjust according to the width of the menu */
+  font-family: "", monospace;
+  text-align: justify; /* Justify text within the content */
+}
